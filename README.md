@@ -20,11 +20,11 @@ Utilizado biblioteca para migrations (Phinx) e rotas (Slim).
 
 **Executar o composer para instalar as libs Phinx (migrations) e Slim (rotas)**
 
-`docker exec -it teste-SoftExpert composer install`
+`docker exec -it api_ecommerce_vinho composer install`
 
 **Executar o migrations**
 
-`docker exec -it teste-SoftExpert vendor/bin/phinx migrate`
+`docker exec -it api_ecommerce_vinho vendor/bin/phinx migrate`
 
 Para testar as rotas, use a ferramenta Postman com as respectivas rotas.
 
@@ -33,7 +33,7 @@ Para testar as rotas, use a ferramenta Postman com as respectivas rotas.
 
 Acessar o container do banco de dados - SGBD Postgres
 
-`docker exec -it postgres-teste_SoftExpert bash`
+`docker exec -it postgres-api_ecommerce_vinho bash`
 
 Conectar na base
 `psql -h 127.0.0.1 -U saitam -d ecommerce`
