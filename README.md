@@ -2,6 +2,10 @@
 
 **Premissas:** Ter o Git, Docker e Docker-composer instalados
 
+Ambiente de desenvolvimento no Docker com Webserver Apache 2, linguagem PHP 7.2 e SGBD PostgreSQL 9.4
+
+Utilizado biblioteca para migrations (Phinx) e rotas (Slim).
+
 **Clonar o repositório**
 
 `git clone https://github.com/rmsaitam/api_ecommerce_vinhos.git`
