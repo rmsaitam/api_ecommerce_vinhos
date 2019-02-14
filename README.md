@@ -26,7 +26,7 @@ Utilizado biblioteca para migrations (Phinx) e rotas (Slim).
 
 `docker exec -it api_ecommerce_vinho vendor/bin/phinx migrate`
 
-Para testar as rotas, use a ferramenta Postman com as respectivas rotas.
+Para executar as rotas, use a ferramenta Postman com as respectivas rotas definidas no arquivo index.php.
 
 
 **Apenas se quiser acessar o container DB (opcional)**
