@@ -1,0 +1,12 @@
+{
+	"require": {
+		"slim/slim": "2.*",
+		"tuupola/cors-middleware": "^0.7.0",
+		"robmorgan/phinx": "^0.10.6" 
+	},
+	"autoload": {
+		"psr-4": {
+			"controllers\\": "controllers"
+		}
+	}
+}
