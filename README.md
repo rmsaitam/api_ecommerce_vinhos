@@ -30,6 +30,7 @@ Para testar as rotas, use a ferramenta Postman com as respectivas rotas.
 
 
 **Apenas se quiser acessar o container DB (opcional)**
+
 Acessar o container do banco de dados - SGBD Postgres
 
 `docker exec -it postgres-teste_SoftExpert bash`
@@ -38,6 +39,7 @@ Conectar na base
 `psql -h 127.0.0.1 -U saitam -d ecommerce`
 
 Listar as tabelas criadas pelo migrations Phinx
+
 `\d`
 
 ```
