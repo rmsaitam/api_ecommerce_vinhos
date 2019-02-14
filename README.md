@@ -28,4 +28,32 @@ Utilizado biblioteca para migrations (Phinx) e rotas (Slim).
 
 Para testar as rotas, use a ferramenta Postman com as respectivas rotas.
 
+
+**Apenas se quiser acessar o container DB (opcional)**
+Acessar o container do banco de dados - SGBD Postgres
+
+`docker exec -it postgres-teste_SoftExpert bash`
+
+Conectar na base
+`psql -h 127.0.0.1 -U saitam -d ecommerce`
+
+Listar as tabelas criadas pelo migrations Phinx
+`\d`
+
+```
+ecommerce-# \d
+                List of relations
+ Schema |        Name        |   Type   | Owner  
+--------+--------------------+----------+--------
+ public | phinxlog           | table    | saitam
+ public | venda_vinho        | table    | saitam
+ public | venda_vinho_id_seq | sequence | saitam
+ public | vendas             | table    | saitam
+ public | vendas_id_seq      | sequence | saitam
+ public | vinhos             | table    | saitam
+ public | vinhos_id_seq      | sequence | saitam
+(7 rows)
+
+```
+
 Feito!
